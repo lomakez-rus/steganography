@@ -94,3 +94,27 @@ pip install opencv-python-headless numpy pywavelets
 pip install opencv-python-headless numpy pywavelets
 
 ```
+
+---
+
+# 4. Стеганографии в JPG-изображениях
+
+Файл: steganography_jpg.py
+
+## Описание
+Программа для стеганографии в JPG-изображениях. Реализовано 5 методов для скрытия информации:  
+1. **LSB (Least Significant Bit)** – Изменение младших битов пикселей.  
+2. **DCT (Discrete Cosine Transform)** – Встраивание в коэффициенты косинусного преобразования.  
+3. **DWT (Discrete Wavelet Transform)** – Использование вейвлет-преобразования для скрытия данных.  
+4. **FFT (Fast Fourier Transform)** – Манипуляция частотными компонентами изображения.  
+5. **Рандомизированный метод** – Использование случайно выбранных пикселей для встраивания данных.
+
+---
+
+## Установка
+1. Убедитесь, что у вас установлен Python 3.9+.
+2. Установите зависимости:
+   ```bash
+   pip install numpy opencv-python pywavelets scipy
+
+   ```
