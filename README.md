@@ -223,13 +223,6 @@ pip install opencv-python-headless numpy pywavelets
 ```sh
 pip install opencv-python numpy scipy pywavelets
 ```
-
-### **2. Скачайте код**  
-```sh
-git clone https://github.com/username/steganography-dct-dwt.git
-cd steganography-dct-dwt
-```
-
 ---
 
 ## 🛠 **Как использовать**  
