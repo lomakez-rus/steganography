@@ -228,7 +228,7 @@ pip install opencv-python numpy scipy pywavelets
 ## 🛠 **Как использовать**  
 ### **Запуск программы**  
 ```sh
-python steganography.py
+python Steganography_DCT_&_DWT.py
 ```
 
 ### **Меню**  
